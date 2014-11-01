@@ -1,9 +1,9 @@
 'use strict';
 
-var vinylToStream = require('./');
 var path = require('path');
 var read = require('vinyl-file').read;
 var test = require('ava');
+var vinylToStream = require('./');
 
 test('return a buffer instead of an object', function (t) {
 	t.plan(2);
