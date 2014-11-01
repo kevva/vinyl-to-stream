@@ -1,6 +1,6 @@
 {
   "name": "vinyl-to-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a vinyl stream to a text stream",
   "license": "MIT",
   "repository": "kevva/vinyl-to-stream",
