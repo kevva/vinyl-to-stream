@@ -1,0 +1,36 @@
+{
+  "name": "vinyl-to-stream",
+  "version": "1.0.0",
+  "description": "Convert a vinyl stream to a text stream",
+  "license": "MIT",
+  "repository": "kevva/vinyl-to-stream",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "buffer",
+    "stream",
+    "through",
+    "transform",
+    "vinyl"
+  ],
+  "dependencies": {
+    "stream-combiner": "^0.2.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4",
+    "vinyl-file": "^1.1.0"
+  }
+}
