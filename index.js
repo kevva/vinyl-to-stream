@@ -1,6 +1,6 @@
 'use strict';
 
-var combine = require('stream-combiner');
+var combine = require('stream-combiner2');
 var through = require('through2');
 
 module.exports = function () {
