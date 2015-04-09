@@ -15,7 +15,7 @@ test('return a buffer instead of an object', function (t) {
 		var stream = vinylToStream();
 
 		stream.on('data', function (data) {
-			t.assert(data.toString() === buf);
+			t.assert(data.toString() === buf, data.toString());
 		});
 
 		stream.end(file);

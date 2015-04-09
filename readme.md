@@ -2,11 +2,13 @@
 
 > Convert a vinyl stream to a text stream
 
+
 ## Install
 
-```sh
+```
 $ npm install --save vinyl-to-stream
 ```
+
 
 ## Usage
 
@@ -19,6 +21,7 @@ vfs.src('foo.html')
 	.pipe(vinylToStream())
 	.pipe(fs.createWriteStream('bar.html'));
 ```
+
 
 ## License
 
