@@ -1,5 +1,4 @@
 'use strict';
-
 var streamCombiner = require('stream-combiner2');
 var through = require('through2');
 
