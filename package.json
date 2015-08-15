@@ -26,8 +26,8 @@
     "vinyl"
   ],
   "dependencies": {
-    "stream-combiner2": "^1.0.2",
-    "through2": "^0.6.3"
+    "readable-stream": "^2.0.2",
+    "stream-combiner2": "^1.0.2"
   },
   "devDependencies": {
     "ava": "^0.0.4",
